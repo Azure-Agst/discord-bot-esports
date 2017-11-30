@@ -12,7 +12,6 @@ client.on('ready', () => {
   console.log("user: "+client.user.tag);
   console.log("id: "+client.user.id);
   console.log("----------");
-  //changelog function
 });
 
 client.on('message', message => {
@@ -118,7 +117,7 @@ client.on('message', message => {
               .addField(" !ping", "Pong!") // sets the first field to explain the command *help
               .addField(" !pong", "Ping!") // sets the field information about the command *info
               .addField(" !help", "Need some help?")
-              .setColor(0xFFA500) // sets the color of the embed box to orange
+              .setColor(0xFFFFFF) // sets the color of the embed box to orange
               .setFooter("You need help, do you?") // sets the footer to "You need help, do you?"
           var embedhelpadmin = new Discord.RichEmbed() // sets a embed box to the var embedhelpadmin
               .setTitle("**List of Mod Commands**\n") // sets the title
@@ -137,6 +136,15 @@ client.on('message', message => {
           break;
 
         //case "rules"
+        
+        case "changelog":
+          var embedChangelog = new Discord.RichEmbed()
+              .setTitle("**Changelog**\n")
+              .addField(" Version "+bot.version, bot.changelog)
+              .setColor(0xFFA500)
+              .setFooter("Documentation is fun.")
+          message.channel.send(embedChangelog);
+          break;
 
         default:
           message.reply("Either I just encountered a bug, or that command doesnt exist yet. Please contact an admin for help.");
@@ -148,4 +156,4 @@ client.on('message', message => {
 });
 
 //must be at end for some reason
-client.login("Mzg1NTQ2NTYxMjg5MDYwMzYy.DQC7vw.98OcufoNCfOKL39fvK_18CBK8t4");
+client.login(bot.token);

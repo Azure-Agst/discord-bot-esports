@@ -12,6 +12,7 @@ client.on('ready', () => {
   console.log("user: "+client.user.tag);
   console.log("id: "+client.user.id);
   console.log("----------");
+  //changelog function
 });
 
 client.on('message', message => {
@@ -134,6 +135,11 @@ client.on('message', message => {
           message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
           if(message.member.permissions.has("MANAGE_MESSAGES")){message.channel.send(embedhelpadmin);}; // if member is a botadmin, display this too
           break;
+
+        //case "rules"
+
+        default:
+          message.reply("Either I just encountered a bug, or that command doesnt exist yet. Please contact an admin for help.");
     }
     console.log("----------");
   } else {

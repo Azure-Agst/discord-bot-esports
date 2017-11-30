@@ -43,7 +43,7 @@ client.on('message', message => {
         if (message.member.permissions.has("BAN_MEMBERS")) {
           if(command[1]==null){message.reply("Not enough parameters!");break;}
           var user = message.mentions.members.first();
-          message.guild.ban(user,1).catch(error => message.reply(`Couldn't ban user because of: ${error}`);break;);
+          message.guild.ban(user,1).catch(error => message.reply(`Couldn't ban user because of: ${error}`));
           message.reply('Banned user ID: '+user+"!");
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
@@ -55,7 +55,7 @@ client.on('message', message => {
         if (message.member.permissions.has("KICK_MEMBERS")) {
           if(command[1]==null){message.reply("Not enough parameters!");break;}
           var user = message.mentions.members.first();
-          user.kick(command.slice(1)).catch(error => message.reply(`Couldn't kick user because of: ${error}`);break;);
+          user.kick(command.slice(1)).catch(error => message.reply(`Couldn't kick user because of: ${error}`));
           message.reply('Kicked user ID: '+user+"!");
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
@@ -74,7 +74,7 @@ client.on('message', message => {
 
       case "lockdown":
         if (message.member.permissions.has("MANAGE_MESSAGES")) {
-          message.channel.overwritePermissions("385480119134715919", {SEND_MESSAGES: false}).catch(error => message.reply(`Couldn't lock channel because of: ${error}`);break;);
+          message.channel.overwritePermissions("385480119134715919", {SEND_MESSAGES: false}).catch(error => message.reply(`Couldn't lock channel because of: ${error}`));
           message.channel.send(":lock: Channel's been locked.");
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
@@ -84,7 +84,7 @@ client.on('message', message => {
 
         case "unlock":
           if (message.member.permissions.has("MANAGE_MESSAGES")) {
-            message.channel.overwritePermissions("385480119134715919", {SEND_MESSAGES: true}).catch(error => message.reply(`Couldn't unlock channel because of: ${error}`);break;);
+            message.channel.overwritePermissions("385480119134715919", {SEND_MESSAGES: true}).catch(error => message.reply(`Couldn't unlock channel because of: ${error}`));
             message.channel.send(":unlock: Channel's been unlocked.");
           } else {
             message.reply("Insuficcient perms, man. Nice try.");

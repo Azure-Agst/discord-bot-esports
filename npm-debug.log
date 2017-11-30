@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'version', 'discord.js' ]
+2 info using npm@3.10.10
+3 info using node@v6.12.0
+4 verbose config Skipping project config: /home/azureagst/.npmrc. (matches userconfig)
+5 error version No valid package.json found
+6 verbose stack Error: Error: ENOENT: no such file or directory, open '/home/azureagst/package.json'
+6 verbose stack     at ReadFileContext.<anonymous> (/usr/lib/node_modules/npm/lib/version.js:111:23)
+6 verbose stack     at ReadFileContext.callback (/usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16)
+6 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:367:13)
+7 verbose cwd /home/azureagst/Projects/discord-bot-esports
+8 error Linux 4.10.0-40-generic
+9 error argv "/usr/bin/node" "/usr/bin/npm" "version" "discord.js"
+10 error node v6.12.0
+11 error npm  v3.10.10
+12 error code [ 'Error: ENOENT',
+12 error code   'ENOENT',
+12 error code   index: 0,
+12 error code   input: 'Error: ENOENT: no such file or directory, open \'/home/azureagst/package.json\'' ]
+13 error Error: ENOENT: no such file or directory, open '/home/azureagst/package.json'
+14 error If you need help, you may report this error at:
+14 error     <https://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]

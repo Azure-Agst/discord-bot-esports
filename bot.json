@@ -1,0 +1,6 @@
+{
+  "_comment": "This JSON file houses some data that will change depending on version releases. -A",
+  "name": "E-Sports Admin Bot",
+  "version": "1.0",
+  "prefix": "!"
+}

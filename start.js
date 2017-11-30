@@ -143,7 +143,7 @@ client.on('message', message => {
                 .addField(" 2. Be nice to each other", "• It's fine to disagree, it's not fine to insult or attack other people.\n• You may disagree with anyone or anything you like, but you should try to keep it to opinions, and not people. Avoid vitriol.\n• Constant antagonistic behavior is considered uncivil and appropriate action will be taken.\n• Don't brigade, raid, or otherwise attack other people or communities. Don't discuss participation in these attacks. This may warrant an immediate permanent ban.")
                 .addField(" 3. Taking Action", "• If you have concerns about another user, please take up your concerns with a staff member (someone with the \"admin\" or \"mod\" role in the sidebar) in private.\n• Don't publicly call other users out.")
                 .addField(" 4. Don't spam", "• For excessively long text, use a service like '0bin' or 'pastebin.'")
-                .addField(" 5. Don't be sneaky", "• Trying to evade, look for loopholes, or stay borderline within the rules will be treated as breaking them, and appropriste action will be taken.")
+                .addField(" 5. Don't be sneaky", "• Trying to evade, look for loopholes, or stay borderline within the rules will be treated as breaking them, and appropriate action will be taken.")
                 .addField(" 6. (Not to be cliché, but) Have fun!", "• We're here to play video games, not be rule nazis. Stay within the rules, and we'll be fine!")
                 .setColor(0x00b2b2)
                 .setFooter("Welcome to the Discord!")

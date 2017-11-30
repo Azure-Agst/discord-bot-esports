@@ -116,6 +116,7 @@ client.on('message', message => {
               .setTitle("**List of Commands**\n") // sets the title to List of Commands
               .addField(" !ping", "Pong!") // sets the first field to explain the command *help
               .addField(" !pong", "Ping!") // sets the field information about the command *info
+              .addField(" !rules", "Displays the server rules in chat.")
               .addField(" !help", "Need some help?")
               .setColor(0xFFFFFF) // sets the color of the embed box to orange
               .setFooter("You need help, do you?") // sets the footer to "You need help, do you?"

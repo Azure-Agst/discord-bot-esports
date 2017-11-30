@@ -127,6 +127,7 @@ client.on('message', message => {
               .addField(" !lockdown", "Locks down a channel so people with no roles cannot talk")
               .addField(" !unlock", "Unlocks a previously Locked channel")
               .addField(" !purge [#]", "Purges a channel of a specified amount of messages")
+              .addField(" !changelog", "Display changelog for the most recent version of the bot.")
               .setColor(0xFF0000) // sets a color
               .setFooter("Ooo, a mod!") // sets the footer
 
@@ -138,12 +139,17 @@ client.on('message', message => {
         //case "rules"
         
         case "changelog":
-          var embedChangelog = new Discord.RichEmbed()
-              .setTitle("**Changelog**\n")
-              .addField(" Version "+bot.version, bot.changelog)
-              .setColor(0xFFA500)
-              .setFooter("Documentation is fun.")
-          message.channel.send(embedChangelog);
+          if(message.member.permissions.has("MANAGE_MESSAGES")){
+            var embedChangelog = new Discord.RichEmbed()
+                .setTitle("**Changelog**\n")
+                .addField(" Version "+bot.version, bot.changelog+"\nSee the github repo for the full changelog")
+                .setColor(0xFFA500)
+                .setFooter("Documentation is fun.")
+            message.channel.send(embedChangelog);
+          } else {
+            message.reply("Insuficcient perms, man. Nice try.");
+            console.log("Attempted by ID: "+message.author.tag);
+          };
           break;
 
         default:

@@ -142,7 +142,7 @@ client.on('message', message => {
           if(message.member.permissions.has("MANAGE_MESSAGES")){
             var embedChangelog = new Discord.RichEmbed()
                 .setTitle("**Changelog**\n")
-                .addField(" Version "+bot.version, bot.changelog+"\nSee the github repo for the full changelog")
+                .addField(" Version "+bot.version, bot.changelog+"\n\nSee the github repo for the full changelog")
                 .setColor(0xFFA500)
                 .setFooter("Documentation is fun.")
             message.channel.send(embedChangelog);

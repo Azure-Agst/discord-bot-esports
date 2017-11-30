@@ -138,7 +138,7 @@ client.on('message', message => {
 
         case "rules":
           var embedRules = new Discord.RichEmbed()
-                .setTitle(":**Rules:**\n")
+                .setTitle("------- [ Server Rules ] -------\n")
                 .addField(" 1. Read the Rules", "• Read all the rules before participating in chat. Not reading the rules is not an excuse for breaking them.\n• It's suggested that you read channel topics and pins before asking questions as well, as some questions may have already been answered in those.\n• #general is for team-related or competition-related chat. I ask you keep low-quality content like memes out of here please.\n• #news is for us getting announcements out to you all.​ Streams, announcements... The works.\n• #off-topic is for, you guessed it, off topic stuff. And yes, you can post memes here. Knock yourself out.")
                 .addField(" 2. Be nice to each other", "• It's fine to disagree, it's not fine to insult or attack other people.\n• You may disagree with anyone or anything you like, but you should try to keep it to opinions, and not people. Avoid vitriol.\n• Constant antagonistic behavior is considered uncivil and appropriate action will be taken.\n• Don't brigade, raid, or otherwise attack other people or communities. Don't discuss participation in these attacks. This may warrant an immediate permanent ban.")
                 .addField(" 3. Taking Action", "• If you have concerns about another user, please take up your concerns with a staff member (someone with the \"admin\" or \"mod\" role in the sidebar) in private.\n• Don't publicly call other users out.")

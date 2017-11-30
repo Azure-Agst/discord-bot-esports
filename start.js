@@ -41,7 +41,7 @@ client.on('message', message => {
 
       case "ban":
         if (message.member.permissions.has("BAN_MEMBERS")) {
-          if(command[1]==null){message.reply(Not enough parameters!);break;}
+          if(command[1]==null){message.reply("Not enough parameters!");break;}
           var user = message.mentions.members.first();
           message.guild.ban(user,1).catch(error => message.reply(`Couldn't ban user because of: ${error}`);break;);
           message.reply('Banned user ID: '+user+"!");
@@ -53,7 +53,7 @@ client.on('message', message => {
 
       case "kick":
         if (message.member.permissions.has("KICK_MEMBERS")) {
-          if(command[1]==null){message.reply(Not enough parameters!);break;}
+          if(command[1]==null){message.reply("Not enough parameters!");break;}
           var user = message.mentions.members.first();
           user.kick(command.slice(1)).catch(error => message.reply(`Couldn't kick user because of: ${error}`);break;);
           message.reply('Kicked user ID: '+user+"!");
@@ -94,7 +94,7 @@ client.on('message', message => {
 
         case "purge":
           if (message.member.permissions.has("MANAGE_MESSAGES")) {
-            if(command[1]==null){message.reply(Not enough parameters!);break;}
+            if(command[1]==null){message.reply("Not enough parameters!");break;}
             const deleteCount = parseInt(command[1], 10);
             if(!deleteCount || deleteCount < 2 || deleteCount > 100){
               message.reply("Please provide a number between 2 and 100 for the number of messages to delete");

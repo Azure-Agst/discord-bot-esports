@@ -4,7 +4,6 @@
   "version": "1.3.0",
   "prefix": "!",
   "token": "Mzg1NTQ2NTYxMjg5MDYwMzYy.DQC7vw.98OcufoNCfOKL39fvK_18CBK8t4",
-  "oldapi": "https://api.twitch.tv/kraken/streams/SavingMusicLIVE?client_id=bh0bre2k2ydrx015huq6jiq4y3bxqk",
   "api": "https://api.twitch.tv/kraken/streams/sjpii_esports?client_id=bh0bre2k2ydrx015huq6jiq4y3bxqk",
   "changelog": "- Added Twitch API support! Now whenever we stream, the bot will provide a link and say that we're streaming."
 }

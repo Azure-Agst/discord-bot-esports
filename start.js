@@ -1,17 +1,47 @@
 const Discord = require('discord.js');
+const request = require('request');
 const client = new Discord.Client();
 var bot = require("./bot.json");
+var twitchapi = bot.api;
 
 var error = 0;
 var date = new Date();
+var streaming;
 
 client.on('ready', () => {
+  client.user.setGame(null);
   client.user.setPresence({game: {name: "with my code", type: 0}});
   client.channels.find("name", "development").send(bot.name+" v"+bot.version+" has started! Started:\n" + date);
   console.log('logged in as:');
   console.log("user: "+client.user.tag);
   console.log("id: "+client.user.id);
   console.log("----------");
+
+  // Stream Check Function
+  setTimeout(function() {
+    request(twitchapi, (error, response, body)=> {
+      var twitchresp = JSON.parse(body)
+      if(twitchresp.stream == null){
+        if(streaming==1){
+          client.user.setGame(null);
+          client.user.setPresence({game: {name: "with my code", type: 0}});
+          streaming = 0;
+        };
+        return;
+      } else if (twitchresp.stream.channel.name == "sjpii_esports") {
+        if(streaming==0){
+          client.user.setGame(twitchresp.stream.channel.status, twitchresp.stream.channel.url);
+          client.channels.find("name", "general").send("Hey guys! We just started streaming! come check us out at the link below!\nhttps://twitch.tv/sjpii_esports");
+          streaming = 1;
+        };
+        return;
+      } else {
+        console.log("uhhhh what. twitch is being fucky.\n-------");
+        throw("welp.")
+      };
+    })
+  }, 5000);
+
 });
 
 client.on('message', message => {
@@ -150,7 +180,7 @@ client.on('message', message => {
                 .setFooter("Welcome to the Discord!")
           message.channel.send(embedRules);
           break;
-        
+
         case "changelog":
           if(message.member.permissions.has("MANAGE_MESSAGES")){
             var embedChangelog = new Discord.RichEmbed()

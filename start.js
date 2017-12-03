@@ -26,19 +26,19 @@ client.on('ready', () => {
           client.user.setGame(null);
           client.user.setPresence({game: {name: "with my code", type: 0}});
           streaming = 0;
-        };
+        }
         return;
       } else if (twitchresp.stream.channel.name == "sjpii_esports") {
         if(streaming==0){
           client.user.setGame(twitchresp.stream.channel.status, twitchresp.stream.channel.url);
           client.channels.find("name", "general").send("Hey guys! We just started streaming! come check us out at the link below!\nhttps://twitch.tv/sjpii_esports");
           streaming = 1;
-        };
+        }
         return;
       } else {
         console.log("uhhhh what. twitch is being fucky.\n-------");
         throw("welp.");
-      };
+      }
     })
   }, 5000);
 
@@ -78,7 +78,7 @@ client.on('message', message => {
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
           console.log("Attempted by ID: "+message.author.tag);
-        };
+        }
         break;
 
       case "kick":
@@ -90,7 +90,7 @@ client.on('message', message => {
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
           console.log("Attempted by ID: "+message.author.tag);
-        };
+        }
         break;
 
       case "unban":
@@ -99,7 +99,7 @@ client.on('message', message => {
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
           console.log("Attempted by ID: "+message.author.tag);
-        };
+        }
         break;
 
       case "lockdown":
@@ -109,7 +109,7 @@ client.on('message', message => {
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
           console.log("Attempted by ID: "+message.author.tag);
-        };
+        }
         break;
 
         case "unlock":
@@ -119,7 +119,7 @@ client.on('message', message => {
           } else {
             message.reply("Insuficcient perms, man. Nice try.");
             console.log("Attempted by ID: "+message.author.tag);
-          };
+          }
           break;
 
         case "purge":
@@ -129,7 +129,7 @@ client.on('message', message => {
             if(!deleteCount || deleteCount < 2 || deleteCount > 100){
               message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
               break;
-            };
+            }
             message.channel.fetchMessages({limit: deleteCount}).then(messages => {
               message.channel.bulkDelete(messages);
             }).catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
@@ -137,7 +137,7 @@ client.on('message', message => {
           } else {
             message.reply("Insuficcient perms, man. Nice try.");
             console.log("Attempted by ID: "+message.author.tag);
-          }; 
+          }
           break;
 
 
@@ -164,7 +164,7 @@ client.on('message', message => {
 
           message.reply("here are some commands!");
           message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
-          if(message.member.permissions.has("MANAGE_MESSAGES")){message.channel.send(embedhelpadmin);}; // if member is a botadmin, display this too
+          if(message.member.permissions.has("MANAGE_MESSAGES")){message.channel.send(embedhelpadmin);} // if member is a botadmin, display this too
           break;
 
         case "rules":
@@ -192,7 +192,7 @@ client.on('message', message => {
           } else {
             message.reply("Insuficcient perms, man. Nice try.");
             console.log("Attempted by ID: "+message.author.tag);
-          };
+          }
           break;
 
         default:
@@ -201,7 +201,7 @@ client.on('message', message => {
     console.log("----------");
   } else {
     return;
-  };
+  }
 });
 
 //must be at end for some reason

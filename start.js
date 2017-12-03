@@ -20,7 +20,7 @@ client.on('ready', () => {
   // Stream Check Function
   setTimeout(function() {
     request(twitchapi, (error, response, body)=> {
-      var twitchresp = JSON.parse(body)
+      var twitchresp = JSON.parse(body);
       if(twitchresp.stream == null){
         if(streaming==1){
           client.user.setGame(null);
@@ -37,7 +37,7 @@ client.on('ready', () => {
         return;
       } else {
         console.log("uhhhh what. twitch is being fucky.\n-------");
-        throw("welp.")
+        throw("welp.");
       };
     })
   }, 5000);
@@ -62,11 +62,11 @@ client.on('message', message => {
     //Here we go!
     switch (command[0]) {
       case "ping":
-        message.reply("pong!")
+        message.reply("pong!");
         break;
 
       case "pong":
-        message.reply("ping!")
+        message.reply("ping!");
         break;
 
       case "ban":
@@ -78,7 +78,7 @@ client.on('message', message => {
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
           console.log("Attempted by ID: "+message.author.tag);
-        }
+        };
         break;
 
       case "kick":
@@ -90,7 +90,7 @@ client.on('message', message => {
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
           console.log("Attempted by ID: "+message.author.tag);
-        }
+        };
         break;
 
       case "unban":
@@ -99,7 +99,7 @@ client.on('message', message => {
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
           console.log("Attempted by ID: "+message.author.tag);
-        }
+        };
         break;
 
       case "lockdown":
@@ -109,7 +109,7 @@ client.on('message', message => {
         } else {
           message.reply("Insuficcient perms, man. Nice try.");
           console.log("Attempted by ID: "+message.author.tag);
-        }
+        };
         break;
 
         case "unlock":
@@ -119,7 +119,7 @@ client.on('message', message => {
           } else {
             message.reply("Insuficcient perms, man. Nice try.");
             console.log("Attempted by ID: "+message.author.tag);
-          }
+          };
           break;
 
         case "purge":
@@ -129,15 +129,15 @@ client.on('message', message => {
             if(!deleteCount || deleteCount < 2 || deleteCount > 100){
               message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
               break;
-            }
+            };
             message.channel.fetchMessages({limit: deleteCount}).then(messages => {
-              message.channel.bulkDelete(messages)
+              message.channel.bulkDelete(messages);
             }).catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
-            message.reply("Purged the chat of the last "+deleteCount+" messages!")
+            message.reply("Purged the chat of the last "+deleteCount+" messages!");
           } else {
             message.reply("Insuficcient perms, man. Nice try.");
             console.log("Attempted by ID: "+message.author.tag);
-          }
+          }; 
           break;
 
 
@@ -149,7 +149,7 @@ client.on('message', message => {
               .addField(" !rules", "Displays the server rules in chat.")
               .addField(" !help", "Need some help?")
               .setColor(0xFFFFFF) // sets the color of the embed box to orange
-              .setFooter("You need help, do you?") // sets the footer to "You need help, do you?"
+              .setFooter("You need help, do you?"); // sets the footer to "You need help, do you?"
           var embedhelpadmin = new Discord.RichEmbed() // sets a embed box to the var embedhelpadmin
               .setTitle("**List of Mod Commands**\n") // sets the title
               .addField(" !ban [@user]", "Bans a user for 1 day")
@@ -160,9 +160,9 @@ client.on('message', message => {
               .addField(" !purge [#]", "Purges a channel of a specified amount of messages")
               .addField(" !changelog", "Display changelog for the most recent version of the bot.")
               .setColor(0xFF0000) // sets a color
-              .setFooter("Ooo, a mod!") // sets the footer
+              .setFooter("Ooo, a mod!"); // sets the footer
 
-          message.reply("here are some commands!")
+          message.reply("here are some commands!");
           message.channel.send(embedhelpmember); // sends the embed box "embedhelpmember" to the chatif
           if(message.member.permissions.has("MANAGE_MESSAGES")){message.channel.send(embedhelpadmin);}; // if member is a botadmin, display this too
           break;
@@ -177,7 +177,7 @@ client.on('message', message => {
                 .addField(" 5. Don't be sneaky", "• Trying to evade, look for loopholes, or stay borderline within the rules will be treated as breaking them, and appropriate action will be taken.")
                 .addField(" 6. (Not to be cliché, but) Have fun!", "• We're here to play video games, not be rule nazis. Stay within the rules, and we'll be fine!")
                 .setColor(0x00b2b2)
-                .setFooter("Welcome to the Discord!")
+                .setFooter("Welcome to the Discord!");
           message.channel.send(embedRules);
           break;
 
@@ -187,7 +187,7 @@ client.on('message', message => {
                 .setTitle("**Changelog**\n")
                 .addField(" Version "+bot.version, bot.changelog+"\n\nSee the github repo for the full changelog")
                 .setColor(0xFFA500)
-                .setFooter("Documentation is fun.")
+                .setFooter("Documentation is fun.");
             message.channel.send(embedChangelog);
           } else {
             message.reply("Insuficcient perms, man. Nice try.");
@@ -201,7 +201,7 @@ client.on('message', message => {
     console.log("----------");
   } else {
     return;
-  }
+  };
 });
 
 //must be at end for some reason

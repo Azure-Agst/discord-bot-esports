@@ -17,31 +17,6 @@ client.on('ready', () => {
   console.log("id: "+client.user.id);
   console.log("----------");
 
-  // Stream Check Function
-  setTimeout(function() {
-    request(twitchapi, (error, response, body)=> {
-      var twitchresp = JSON.parse(body);
-      if(twitchresp.stream == null){
-        if(streaming==1){
-          client.user.setGame(null);
-          client.user.setPresence({game: {name: "with my code", type: 0}});
-          streaming = 0;
-        }
-        return;
-      } else if (twitchresp.stream.channel.name == "sjpii_esports") {
-        if(streaming==0){
-          client.user.setGame(twitchresp.stream.channel.status, twitchresp.stream.channel.url);
-          client.channels.find("name", "general").send("Hey guys! We just started streaming! come check us out at the link below!\nhttps://twitch.tv/sjpii_esports");
-          streaming = 1;
-        }
-        return;
-      } else {
-        console.log("uhhhh what. twitch is being fucky.\n-------");
-        throw("welp.");
-      }
-    })
-  }, 5000);
-
 });
 
 client.on('message', message => {
@@ -58,6 +33,8 @@ client.on('message', message => {
     console.log(date); //Then, we log the timestamp...
     console.log(issuer+" issued command: \n\""+prefixless+"\""); //... Log the command issued in string form...
     console.log(command); //... And lastly, print the array for debugging.
+
+    if(bot.streamlabs.includes(command[0]))return; //no streamlabs/nightbot interference
 
     //Here we go!
     switch (command[0]) {
@@ -137,6 +114,15 @@ client.on('message', message => {
           } else {
             message.reply("Insuficcient perms, man. Nice try.");
             console.log("Attempted by ID: "+message.author.tag);
+          }
+          break;
+
+
+        case "alert_stream":
+          if(message.member.roles.find("notifyme") != null){
+            message.member.addRole("notifyme");
+          }else{
+            message.reply("you already have this role!")
           }
           break;
 

@@ -3,12 +3,10 @@ const request = require('request');
 const client = new Discord.Client();
 var bot = require("./bot.json");
 var twitchapi = bot.api;
-
 var error = 0;
-var date = new Date();
-var streaming;
 
 client.on('ready', () => {
+  var date = new Date();
   client.user.setGame(null);
   client.user.setPresence({game: {name: "with my code", type: 0}});
   client.channels.find("name", "development").send(bot.name+" v"+bot.version+" has started! Started:\n" + date);
@@ -107,10 +105,14 @@ client.on('message', message => {
               message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
               break;
             }
-            message.channel.fetchMessages({limit: deleteCount}).then(messages => {
+            message.channel.fetchMessages({limit: deleteCount+1}).then(messages => {
               message.channel.bulkDelete(messages);
             }).catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
-            message.reply("Purged the chat of the last "+deleteCount+" messages!");
+            message.reply("Purged the chat of the last "+deleteCount+" messages!\n*[This message will self destruct in 5 seconds...]*");
+            console.log(message.channel.lastMessageID);
+            setTimeout(function(){
+              client.user.lastMessage.delete();
+            }, 5000)
           } else {
             message.reply("Insuficcient perms, man. Nice try.");
             console.log("Attempted by ID: "+message.author.tag);
@@ -126,6 +128,19 @@ client.on('message', message => {
           }
           break;
 
+        case "announce":
+        case "ann":
+          var embedAnn = new Discord.RichEmbed()
+              .setTitle("Announcement from "+issuer+"\n")
+              .setDescription(command.slice(1).join(" "))
+              .setColor(0xcbb778)
+              .setFooter(date);
+          client.channels.find("name", "development").send(embedAnn);
+          break;
+
+
+
+        // Ugly Commands start here
 
         case "help":
           var embedhelpmember = new Discord.RichEmbed() // sets a embed box to the variable embedhelpmember
@@ -154,6 +169,7 @@ client.on('message', message => {
           break;
 
         case "rules":
+        if (message.member.permissions.has("MANAGE_MESSAGES")) {
           var embedRules = new Discord.RichEmbed()
                 .setTitle("------- [ Server Rules ] -------\n")
                 .addField(" 1. Read the Rules", "• Read all the rules before participating in chat. Not reading the rules is not an excuse for breaking them.\n• It's suggested that you read channel topics and pins before asking questions as well, as some questions may have already been answered in those.\n• #general is for team-related or competition-related chat. I ask you keep low-quality content like memes out of here please.\n• #news is for us getting announcements out to you all.​ Streams, announcements... The works.\n• #off-topic is for, you guessed it, off topic stuff. And yes, you can post memes here. Knock yourself out.")
@@ -165,10 +181,14 @@ client.on('message', message => {
                 .setColor(0x00b2b2)
                 .setFooter("Welcome to the Discord!");
           message.channel.send(embedRules);
+        } else {
+          message.reply("Insuficcient perms, man. Nice try.");
+          console.log("Attempted by ID: "+message.author.tag);
+        }
           break;
 
         case "changelog":
-          if(message.member.permissions.has("MANAGE_MESSAGES")){
+          if(message.member.permissions.has("MANAGE_ROLES")){
             var embedChangelog = new Discord.RichEmbed()
                 .setTitle("**Changelog**\n")
                 .addField(" Version "+bot.version, bot.changelog+"\n\nSee the github repo for the full changelog")
@@ -183,6 +203,7 @@ client.on('message', message => {
 
         default:
           message.reply("Either I just encountered a bug, or that command doesnt exist yet. Please contact an admin for help.");
+          console.log("Error occurred: Command doesn't exist");
     }
     console.log("----------");
   } else {

@@ -136,6 +136,7 @@ client.on('message', message => {
               .setColor(0xcbb778)
               .setFooter(date);
           client.channels.find("name", "team-news").send(embedAnn);
+          message.reply("Your announcement was sent!");
           break;
 
 

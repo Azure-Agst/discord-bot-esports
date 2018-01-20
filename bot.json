@@ -1,7 +1,7 @@
 {
   "_comment": "This JSON file houses some data that will change depending on version releases. -A",
   "name": "E-Sports Admin Bot",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "prefix": "!",
   "token": "Mzg1NTQ2NTYxMjg5MDYwMzYy.DQC7vw.98OcufoNCfOKL39fvK_18CBK8t4",
   "api": "https://api.twitch.tv/kraken/streams/sjpii_esports?client_id=bh0bre2k2ydrx015huq6jiq4y3bxqk",

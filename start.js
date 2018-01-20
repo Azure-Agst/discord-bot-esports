@@ -135,7 +135,7 @@ client.on('message', message => {
               .setDescription(command.slice(1).join(" "))
               .setColor(0xcbb778)
               .setFooter(date);
-          client.channels.find("name", "development").send(embedAnn);
+          client.channels.find("name", "team-news").send(embedAnn);
           break;
 
 

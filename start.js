@@ -5,17 +5,66 @@ var bot = require("./bot.json");
 var twitchapi = bot.api;
 var error = 0;
 
+//
+// ---------- READY MODULE ----------
+//
+
 client.on('ready', () => {
   var date = new Date();
-  client.user.setGame(null);
-  client.user.setPresence({game: {name: "with my code", type: 0}});
   client.channels.find("name", "development").send(bot.name+" v"+bot.version+" has started! Started:\n" + date);
+  client.user.setPresence({game: {name: "", type: 0}});
   console.log('logged in as:');
   console.log("user: "+client.user.tag);
   console.log("id: "+client.user.id);
   console.log("----------");
-
+  // client.user.setPresence({game: {name: "with my code", type: 0}});
+  // console.log("Updated status! with my code\n----------");
 });
+
+
+//
+// ---------- TWITCH API MODULE ----------
+//
+
+var options = {url:"https://api.twitch.tv/helix/streams?user_login=sjpii_esports", headers:{'Client-ID': 'f416knomq8em5mn3wvsvndsc2wyp4e'}};
+function callback(error, response, body) {
+  if (!error && response.statusCode == 200) {
+    var info = JSON.parse(body);
+    var twitchapi = info.data[0];
+    //console.log("Twitch API = ");
+    //console.log(twitchapi)
+    var status = client.user.presence.game.name; //"with my code" if no streaming
+    //console.log("Status = "+status);
+    if (twitchapi == undefined) {
+      //not streaming
+      if (status=="") {
+        client.user.setPresence({game: {name: "with my code", type: 0}});
+        console.log("Set status!\n----------");
+      } else if (status=="with my code") {
+        return;
+      } else {
+        client.user.setPresence({game: {name: "with my code", type: 0}});
+        console.log("Updated status!\n"+status+"\n----------");
+      }
+    } else if (twitchapi!=undefined && twitchapi.type=="live") {
+      // we live!
+      if (status==undefined) {
+        console.log("Something's up with Discord. Check out API.\n----------");
+      } else if (status!="with my code" && status!="") {
+        return;
+      } else {
+        client.user.setPresence({game: {name: twitchapi.title, type: 0, url: "https://twitch.tv/sjpii_esports"}});
+        console.log("Updated status! Streaming:\n"+twitchapi.title+"\n----------");
+      }
+    }
+  }
+}
+//call is at bottom, below login
+
+
+//
+// ---------- MESSAGE MODULE ----------
+//
 
 client.on('message', message => {
   if (message.content.startsWith(bot.prefix)) {
@@ -212,5 +261,12 @@ client.on('message', message => {
   }
 });
 
-//must be at end for some reason
+
+//
+// ---------- START SCRIPTS ----------
+//
+
 client.login(bot.token);
+setInterval(function(){
+  request(options, callback);
+}, 60000);

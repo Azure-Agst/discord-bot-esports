@@ -4,7 +4,6 @@
   "version": "2.0.0",
   "prefix": "!",
   "token": "Mzg1NTQ2NTYxMjg5MDYwMzYy.DQC7vw.98OcufoNCfOKL39fvK_18CBK8t4",
-  "api": "https://api.twitch.tv/kraken/streams/sjpii_esports?client_id=bh0bre2k2ydrx015huq6jiq4y3bxqk",
   "streamlabs": ["title", "game"],
   "changelog": "- Twitch integration! Finally! Now we have a bot that changes it's status when we start streaming. (May contain up to a 60 second delay.)\n- More stuff with the new Twitch API coming soon!"
 }

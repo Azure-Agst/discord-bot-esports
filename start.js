@@ -188,6 +188,22 @@ client.on('message', message => {
           message.reply("Your announcement was sent!");
           break;
 
+        case "note":
+          if (message.member.permissions.has("MANAGE_MESSAGES")) {
+            var embedNote = new Discord.RichEmbed()
+                .setTitle("Note from "+issuer+"\n")
+                .setDescription(command.slice(1).join(" "))
+                .setColor(0x002d56)
+                .setFooter(date);
+            message.channel.send(embedNote);
+            setTimeout(function(){
+              client.user.lastMessage.pin();
+            }, 500);
+          } else {
+            message.reply("Insuficcient perms, man. Nice try.");
+            console.log("Attempted by ID: "+message.author.tag);
+          }
+          break;
 
 
         // Ugly Commands start here
@@ -209,6 +225,7 @@ client.on('message', message => {
               .addField(" !lockdown", "Locks down a channel so people with no roles cannot talk")
               .addField(" !unlock", "Unlocks a previously Locked channel")
               .addField(" !purge [#]", "Purges a channel of a specified amount of messages")
+              .addField(" !note [message]", "Take a note, man.")
               .addField(" !changelog", "Display changelog for the most recent version of the bot.")
               .setColor(0xFF0000) // sets a color
               .setFooter("Ooo, a mod!"); // sets the footer
@@ -269,4 +286,4 @@ client.on('message', message => {
 client.login(bot.token);
 setInterval(function(){
   request(options, callback);
-}, 60000);
+}, 5000);

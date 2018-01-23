@@ -13,7 +13,7 @@ If running using a spare computer or server you own, I recommend installing and 
 
 ## How to modify
 
-Most the modifiable data is located in `./bot.json`. 
+Most of the modifiable data is located in `./bot.json`. 
 
 - Name: Bot name used internally
 - Version: Version of the bot.

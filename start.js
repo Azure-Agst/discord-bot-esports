@@ -285,5 +285,8 @@ client.on('message', message => {
 
 client.login(bot.token);
 setInterval(function(){
-  request(options, callback);
+  request(options, callback).on('error', function(err) {
+    console.log(err);
+    return;
+  })
 }, 5000);

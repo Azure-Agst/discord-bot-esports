@@ -1,0 +1,58 @@
+logged in as:
+user: esports-bot#6152
+id: 385546561289060362
+----------
+Set status!
+----------
+2018-02-05T00:20:09.708Z
+guysome7232 issued command: 
+"ann Trent and James are to come to aerospace meetings daily. After Monday's meeting, it will be aerospace only until the competition. We will be performing sim runs and presentations, so it is not optional."
+[ 'ann',
+  'Trent',
+  'and',
+  'James',
+  'are',
+  'to',
+  'come',
+  'to',
+  'aerospace',
+  'meetings',
+  'daily.',
+  'After',
+  'Monday\'s',
+  'meeting,',
+  'it',
+  'will',
+  'be',
+  'aerospace',
+  'only',
+  'until',
+  'the',
+  'competition.',
+  'We',
+  'will',
+  'be',
+  'performing',
+  'sim',
+  'runs',
+  'and',
+  'presentations,',
+  'so',
+  'it',
+  'is',
+  'not',
+  'optional.' ]
+----------
+2018-02-05T03:29:39.070Z
+Azure_Agst issued command: 
+"purge 2"
+[ 'purge', '2' ]
+409913436172976128
+----------
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TLSWrap.onread (net.js:568:26)

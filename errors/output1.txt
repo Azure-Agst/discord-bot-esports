@@ -1,0 +1,964 @@
+logged in as:
+user: esports-bot#6152
+id: 385546561289060362
+----------
+Set status!
+----------
+2018-01-23T13:55:22.594Z
+Azure_Agst issued command: 
+"note -Brainstorm uses for Twitch API
+- Learn how to externalize into modules"
+[ 'note',
+  '-Brainstorm',
+  'uses',
+  'for',
+  'Twitch',
+  'API\n-',
+  'Learn',
+  'how',
+  'to',
+  'externalize',
+  'into',
+  'modules' ]
+----------
+Updated status! Streaming:
+Some Gaming
+----------
+2018-01-24T00:05:04.510Z
+Azure_Agst issued command: 
+"title Overwatch! [Azure and TsarTrek]"
+[ 'title', 'Overwatch!', '[Azure', 'and', 'TsarTrek]' ]
+2018-01-24T00:05:09.312Z
+Azure_Agst issued command: 
+"game Overwatch"
+[ 'game', 'Overwatch' ]
+Updated status!
+Some Gaming
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status! Streaming:
+Overwatch! [Azure and TsarTrek]
+----------
+Updated status!
+Overwatch! [Azure and TsarTrek]
+----------
+2018-01-24T16:21:49.914Z
+Azure_Agst issued command: 
+"lockdown"
+[ 'lockdown' ]
+----------
+2018-01-24T16:22:13.656Z
+Azure_Agst issued command: 
+"purge 50"
+[ 'purge', '50' ]
+405759206797475851
+----------
+2018-01-24T16:22:24.070Z
+Azure_Agst issued command: 
+"purge 20"
+[ 'purge', '20' ]
+405759250539741195
+----------
+2018-01-24T16:22:36.669Z
+Azure_Agst issued command: 
+"unlock"
+[ 'unlock' ]
+----------
+2018-01-24T16:25:19.040Z
+Azure_Agst issued command: 
+"lockdown"
+[ 'lockdown' ]
+----------
+2018-01-24T16:26:00.349Z
+Azure_Agst issued command: 
+"unlock"
+[ 'unlock' ]
+----------
+2018-01-24T16:30:04.368Z
+Azure_Agst issued command: 
+"rules"
+[ 'rules' ]
+----------
+2018-01-24T16:33:19.349Z
+Azure_Agst issued command: 
+"purge 24"
+[ 'purge', '24' ]
+405761999155363850
+----------
+2018-01-24T16:33:47.684Z
+Azure_Agst issued command: 
+"purge 3"
+[ 'purge', '3' ]
+405762117854298133
+----------
+2018-01-24T16:36:41.509Z
+Azure_Agst issued command: 
+"purge 32"
+[ 'purge', '32' ]
+405762846891442187
+----------
+2018-01-24T18:45:58.585Z
+Azure_Agst issued command: 
+"ann So,
+We may be getting new team PC’s super soon.
+We’re working with marien to get rigs with 1050Ti’s
+Superhype <:pogchamp:390338822921256971>"
+[ 'ann',
+  'So,\nWe',
+  'may',
+  'be',
+  'getting',
+  'new',
+  'team',
+  'PC’s',
+  'super',
+  'soon.\nWe’re',
+  'working',
+  'with',
+  'marien',
+  'to',
+  'get',
+  'rigs',
+  'with',
+  '1050Ti’s\nSuperhype',
+  '<:pogchamp:390338822921256971>' ]
+----------
+2018-01-24T23:02:18.504Z
+XSYKDAWGX issued command: 
+"title  Playing some games"
+[ 'title', '', 'Playing', 'some', 'games' ]
+2018-01-24T23:02:22.174Z
+XSYKDAWGX issued command: 
+"game Overwatch"
+[ 'game', 'Overwatch' ]
+Updated status! Streaming:
+ Playing some games
+----------
+2018-01-24T23:36:26.454Z
+Azure_Agst issued command: 
+"purge 2"
+[ 'purge', '2' ]
+405868480412385280
+----------
+2018-01-25T00:13:52.153Z
+XSYKDAWGX issued command: 
+"game Fortnite"
+[ 'game', 'Fortnite' ]
+2018-01-25T01:08:17.038Z
+XSYKDAWGX issued command: 
+"title PLAying"
+[ 'title', 'PLAying' ]
+2018-01-25T01:08:34.209Z
+XSYKDAWGX issued command: 
+"ame Player Unknowns battleground"
+[ 'ame', 'Player', 'Unknowns', 'battleground' ]
+Error occurred: Command doesn't exist
+----------
+2018-01-25T01:48:40.014Z
+guysome7232 issued command: 
+"game Player_Unknowns_battleground"
+[ 'game', 'Player_Unknowns_battleground' ]
+2018-01-25T02:02:33.820Z
+Azure_Agst issued command: 
+"game PLAYERUNKNOWN'S BATTLEGROUNDS"
+[ 'game', 'PLAYERUNKNOWN\'S', 'BATTLEGROUNDS' ]
+2018-01-25T02:57:40.622Z
+Azure_Agst issued command: 
+"purge 1100000"
+[ 'purge', '1100000' ]
+----------
+2018-01-25T02:57:54.211Z
+Azure_Agst issued command: 
+"purge 100"
+[ 'purge', '100' ]
+405919180165087242
+----------
+2018-01-25T02:58:04.072Z
+guysome7232 issued command: 
+"purge um0m"
+[ 'purge', 'um0m' ]
+----------
+2018-01-25T02:58:14.907Z
+Azure_Agst issued command: 
+"purge 15"
+[ 'purge', '15' ]
+405919266928590848
+----------
+Updated status!
+ Playing some games
+----------
+Updated status! Streaming:
+PLAying
+----------
+Updated status!
+PLAying
+----------
+2018-01-26T13:16:25.966Z
+Azure_Agst issued command: 
+"ann Okay so hopefully today should finally be the day that we partner with Twitch. However, with that, brings some new rules. It was fine to stream with anyone we wanted when we weren’t making money, but now that we’re making money off our streams, we have a whole new set of legal rules applied to us.
+
+From here on out, you **ARE NOT** allowed to be on stream, unless you have signed and returned a legal media release form. If you’re under the age of 18, you’ll need a parent signature as well.
+
+According to US law, “[we] need a release waiver when you are using another person's name, voice, signature, photograph (if readily identifiable), or likeness for exploitative purposes.” This means that from now on, you can’t even use anyone’s name if they haven’t signed a form.
+
+CS:GO is officially on the blacklist of games to steam for the school. That also means that Six Siege, or any game that you wouldn’t show your grandmother or your priest, cannot be streamed on the channel.
+
+Anyways, there’s a lot more legal screech I can go over with you all in private, but that’s the summary. Oh, and all this is effective immediately. -A"
+[ 'ann',
+  'Okay',
+  'so',
+  'hopefully',
+  'today',
+  'should',
+  'finally',
+  'be',
+  'the',
+  'day',
+  'that',
+  'we',
+  'partner',
+  'with',
+  'Twitch.',
+  'However,',
+  'with',
+  'that,',
+  'brings',
+  'some',
+  'new',
+  'rules.',
+  'It',
+  'was',
+  'fine',
+  'to',
+  'stream',
+  'with',
+  'anyone',
+  'we',
+  'wanted',
+  'when',
+  'we',
+  'weren’t',
+  'making',
+  'money,',
+  'but',
+  'now',
+  'that',
+  'we’re',
+  'making',
+  'money',
+  'off',
+  'our',
+  'streams,',
+  'we',
+  'have',
+  'a',
+  'whole',
+  'new',
+  'set',
+  'of',
+  'legal',
+  'rules',
+  'applied',
+  'to',
+  'us.\n\nFrom',
+  'here',
+  'on',
+  'out,',
+  'you',
+  '**ARE',
+  'NOT**',
+  'allowed',
+  'to',
+  'be',
+  'on',
+  'stream,',
+  'unless',
+  'you',
+  'have',
+  'signed',
+  'and',
+  'returned',
+  'a',
+  'legal',
+  'media',
+  'release',
+  'form.',
+  'If',
+  'you’re',
+  'under',
+  'the',
+  'age',
+  'of',
+  '18,',
+  'you’ll',
+  'need',
+  'a',
+  'parent',
+  'signature',
+  'as',
+  'well.\n\nAccording',
+  'to',
+  'US',
+  'law,',
+  '“[we]',
+  'need',
+  'a',
+  'release',
+  ... 100 more items ]
+----------
+2018-01-26T13:29:31.081Z
+Azure_Agst issued command: 
+"ann Also, I’m pretty sure all existing members know, but we also ordered PC parts yesterday, and most of it has already shipped. The specs:
+- Ryzen 3 1200
+- MSI B350M Motherboard
+- 8 GB RAM
+- GTX 1050
+- 120GB SSD
+The full parts list can be seen here: https://pcpartpicker.com/user/August712/saved/Wm6FdC
+The parts should be straggling in over the next week or so. Hopefully we’ll have a rig set up before the informational meeting I’m rescheduling to next week. :)"
+[ 'ann',
+  'Also,',
+  'I’m',
+  'pretty',
+  'sure',
+  'all',
+  'existing',
+  'members',
+  'know,',
+  'but',
+  'we',
+  'also',
+  'ordered',
+  'PC',
+  'parts',
+  'yesterday,',
+  'and',
+  'most',
+  'of',
+  'it',
+  'has',
+  'already',
+  'shipped.',
+  'The',
+  'specs:\n-',
+  'Ryzen',
+  '3',
+  '1200\n-',
+  'MSI',
+  'B350M',
+  'Motherboard\n-',
+  '8',
+  'GB',
+  'RAM\n-',
+  'GTX',
+  '1050\n-',
+  '120GB',
+  'SSD\nThe',
+  'full',
+  'parts',
+  'list',
+  'can',
+  'be',
+  'seen',
+  'here:',
+  'https://pcpartpicker.com/user/August712/saved/Wm6FdC\nThe',
+  'parts',
+  'should',
+  'be',
+  'straggling',
+  'in',
+  'over',
+  'the',
+  'next',
+  'week',
+  'or',
+  'so.',
+  'Hopefully',
+  'we’ll',
+  'have',
+  'a',
+  'rig',
+  'set',
+  'up',
+  'before',
+  'the',
+  'informational',
+  'meeting',
+  'I’m',
+  'rescheduling',
+  'to',
+  'next',
+  'week.',
+  ':)' ]
+----------
+2018-01-26T16:12:33.481Z
+Azure_Agst issued command: 
+"ann also meeting today in Larson room bring form and $5"
+[ 'ann',
+  'also',
+  'meeting',
+  'today',
+  'in',
+  'Larson',
+  'room',
+  'bring',
+  'form',
+  'and',
+  '$5' ]
+----------
+Updated status! Streaming:
+PLAying
+----------
+Updated status!
+PLAying
+----------
+Updated status! Streaming:
+PLAying
+----------
+Updated status!
+PLAying
+----------
+Updated status! Streaming:
+PLAying
+----------
+Updated status!
+PLAying
+----------
+Updated status! Streaming:
+PLAying
+----------
+Updated status!
+PLAying
+----------
+2018-01-28T04:48:06.643Z
+Azure_Agst issued command: 
+"ann Registration for Winter Majors has closed. If you didn't end up being put on a competing roster, take the next few months to practice so you can be good when spring rolls around. :)"
+[ 'ann',
+  'Registration',
+  'for',
+  'Winter',
+  'Majors',
+  'has',
+  'closed.',
+  'If',
+  'you',
+  'didn\'t',
+  'end',
+  'up',
+  'being',
+  'put',
+  'on',
+  'a',
+  'competing',
+  'roster,',
+  'take',
+  'the',
+  'next',
+  'few',
+  'months',
+  'to',
+  'practice',
+  'so',
+  'you',
+  'can',
+  'be',
+  'good',
+  'when',
+  'spring',
+  'rolls',
+  'around.',
+  ':)' ]
+----------
+2018-01-29T01:39:27.784Z
+XSYKDAWGX issued command: 
+"end"
+[ 'end' ]
+Error occurred: Command doesn't exist
+----------
+2018-01-30T03:40:47.844Z
+Azure_Agst issued command: 
+"purge 7"
+[ 'purge', '7' ]
+407741913786089483
+----------
+Updated status! Streaming:
+Casual Overwatch
+----------
+Updated status!
+Casual Overwatch
+----------
+Updated status! Streaming:
+Casual Overwatch
+----------
+Updated status!
+Casual Overwatch
+----------
+Updated status! Streaming:
+Casual Overwatch
+----------
+Updated status!
+Casual Overwatch
+----------
+Updated status! Streaming:
+Casual Overwatch
+----------
+Updated status!
+Casual Overwatch
+----------
+Updated status! Streaming:
+More Overwatch [Azure]
+----------
+Updated status!
+More Overwatch [Azure]
+----------
+Updated status! Streaming:
+More Overwatch [Azure]
+----------
+Updated status!
+More Overwatch [Azure]
+----------
+Updated status! Streaming:
+More Overwatch [Azure]
+----------
+Updated status!
+More Overwatch [Azure]
+----------
+Updated status! Streaming:
+More Overwatch [Azure]
+----------
+Updated status!
+More Overwatch [Azure]
+----------
+Updated status! Streaming:
+More Overwatch [Azure]
+----------
+2018-02-01T21:59:19.762Z
+XSYKDAWGX issued command: 
+"title GAMING"
+[ 'title', 'GAMING' ]
+2018-02-01T21:59:24.626Z
+XSYKDAWGX issued command: 
+"game Fortnite"
+[ 'game', 'Fortnite' ]
+2018-02-01T22:18:56.275Z
+Azure_Agst issued command: 
+"purge 4"
+[ 'purge', '4' ]
+408748079077130240
+----------
+2018-02-01T23:56:41.576Z
+XSYKDAWGX issued command: 
+"game Ocerwatch"
+[ 'game', 'Ocerwatch' ]
+2018-02-01T23:57:01.109Z
+Azure_Agst issued command: 
+"purge 2"
+[ 'purge', '2' ]
+408772761864110080
+----------
+(node:32623) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 3): DiscordAPIError: Unknown Message
+Updated status!
+More Overwatch [Azure]
+----------
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ETIMEDOUT
+    at exports._errnoException (util.js:1020:11)
+    at TLSWrap.onread (net.js:568:26)

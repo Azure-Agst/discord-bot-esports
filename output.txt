@@ -1,0 +1,6 @@
+logged in as:
+user: esports-bot#6152
+id: 385546561289060362
+----------
+Set status!
+----------

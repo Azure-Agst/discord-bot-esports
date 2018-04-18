@@ -3,6 +3,7 @@
   "name": "E-Sports Admin Bot",
   "version": "2.0.0",
   "prefix": "!",
+  "_comment2": "this token is invalidated anyways so idc. VVV",
   "token": "Mzg1NTQ2NTYxMjg5MDYwMzYy.DQC7vw.98OcufoNCfOKL39fvK_18CBK8t4",
   "streamlabs": ["title", "game"],
   "changelog": "- Twitch integration! Finally! Now we have a bot that changes it's status when we start streaming. (May contain up to a 60 second delay.)\n- More stuff with the new Twitch API coming soon!"
